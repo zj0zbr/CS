@@ -1,0 +1,8 @@
+html{
+    /* 以iPhone6为基准 375/15px = 25*/
+    font-size:15px;
+}
+.p1{
+    color: red;
+    font-size:3rem;
+}

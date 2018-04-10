@@ -1,0 +1,38 @@
+html{
+    /*以iPhone6为基准 375/15px = 25*/
+    font-size:15px;
+}
+#pageone{
+     background-image: url(../image/p4.jpg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+ }
+.input1{
+    height: 20%;
+    width: 52%;
+    margin-left: 20%;
+}
+.ui-content{
+    margin-top: 44%;
+}
+.f_pwd{
+    color: red !important;
+    margin-left: 48%;
+}
+.a{
+    width: 72%;
+    height: 8%;
+    float: inherit;
+}
+.btn1{
+    margin-left: 30%;
+    height: 9.2%;
+    float: left;
+    width:25% !important;
+}
+.btn2{
+    margin-right: 5.6%;
+    height: 9.2%;
+    float: right;
+    width:25% !important;
+}

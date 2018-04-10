@@ -1,0 +1,29 @@
+html{
+    /* 以iPhone6为基准 375/15px = 25*/
+    font-size:15px;
+}
+#pageone{
+    width: 100%;
+    background-image: url(../image/1.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.create{
+    text-align: center;
+    margin-top: 25%;
+
+}
+.bn1{
+    width: 28% !important;
+    float: left;
+    margin-left: 13%;
+
+}
+
+
+.bn2{
+    width: 28% !important;
+    float: right;
+    margin-right: 13%;
+
+}

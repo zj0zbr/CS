@@ -1,0 +1,49 @@
+html{
+    /*以iPhone6为基准 375/15px = 25*/
+    font-size:15px;
+}
+#pageone{
+
+}
+.flex-container1{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;/*row-reverse*/
+    flex-direction: row;/*row-reverse*/
+    -webkit-justify-content: space-around;/*flex-start flex-end center space-between*/
+    justify-content: space-around;/*flex-start flex-end center space-between*/
+    width: 100%;
+    height: 100%;
+    margin-top: 2%;
+}
+#flex-item1 {
+    width: 150px;
+    height: 300px;
+}
+#flex-item2 {
+    border: 1px solid black;
+    width: 330px;
+    height: 300px;
+
+}
+#flex-item3{
+    width: 150px;
+    height: 300px;
+
+}
+#flex-item1 ul {
+    list-style:none;
+    text-align: center;
+    list-style-type: none;
+}
+.li{
+    width: 100px;
+    height: 50px;
+}
+#flex-item3 ul {
+    list-style:none;
+    text-align: center;
+    list-style-type: none;
+
+
+}

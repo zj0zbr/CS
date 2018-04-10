@@ -1,0 +1,28 @@
+html{
+    /*以iPhone6为基准 375/15px = 25*/
+    font-size:15px;
+}
+#pageone{
+    background-image: url(../image/a2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.input1{
+    height:20%;
+    width: 52%;
+    margin-left: 23%;
+}
+.ui-content{
+    margin-top: 64%;
+}
+
+.a{
+    width: 72%;
+    height: 8%;
+    float: inherit;
+}
+
+.btn2{
+    margin-left: 44%;
+    height: 9.2%;
+}

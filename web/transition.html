@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+    <meta name="full-screen" content="yes">
+    <meta name="screen-orientation" content="landscape">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/transition.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/transition.css">
+    <title>transition</title>
+</head>
+
+ <script language="JavaScript">
+     var time=5;
+     var timelong=0;
+     function diplaytime() {//时间递减
+         document.all.this.innerHTML=time-timelong;
+         timelong++;
+
+     }
+     function redirect() {
+         window.location.href="camera.html";
+
+     }
+//     timer=setInterval('diplaytime()',1000);//显示时间
+     timer=setTimeout('redirect()',time*1000);//跳转
+ </script>
+
+<body>
+<div data-role="page" id="pageone">
+    <div class="flex-container1">
+        <div class="flex-item" id="flex-item1"></div>
+        <div class="flex-item" id="flex-item2"></div>
+        <div class="flex-item" id="flex-item3"></div>
+        <div class="flex-item" id="flex-item4"></div>
+        <div class="flex-item" id="flex-item5"></div>
+    </div>
+
+    <div class="flex-container2">
+        <div class="flex-item" id="flex-item6"></div>
+        <div class="flex-item" id="flex-item7"></div>
+        <div class="flex-item" id="flex-item8"></div>
+        <div class="flex-item" id="flex-item9"></div>
+        <div class="flex-item" id="flex-item10"></div>
+    </div>
+</div>
+
+</body>
+</html>

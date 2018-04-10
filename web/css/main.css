@@ -1,0 +1,45 @@
+html{
+    /* 以iPhone6为基准 375/15px = 25*/
+    font-size:15px;
+}
+#pageone{
+    width: 100%;
+    background-image: url(../image/a4.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+#img0{
+    height: 9%;
+    width: 12%;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.flex-item {
+    margin: 12%;
+}
+
+.item2 {
+    -webkit-flex: 1;
+    flex:1;
+    margin-left: 5%;
+}
+
+.item3 {
+    -webkit-flex: 1;
+    flex: 1;
+    margin-left: 0%;
+}
+
+#myPopup{
+    height: auto;
+    width: auto;
+    background-color: #22aadd;
+}

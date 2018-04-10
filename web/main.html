@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=yes"/>
+    <meta name="full-screen" content="yes">
+    <meta name="screen-orientation" content="landscape">
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>main</title>
+</head>
+
+<body>
+<div data-role="page" id="pageone">
+    <div>
+        <a href="#myPopup" data-rel="popup" data-position-to="origin"><img  src="image/aaa.jpg" id="img0" ></a>
+    </div>
+    <div data-role="popup" id="myPopup" class="ui-content">
+        <div id="name"></div>
+        <div id="infor"></div>
+        <div id="age"></div>
+    </div>
+    <div class="flex-container">
+       <div class="flex-item item2">
+           <img src="image/ccc.jpg" id="img1" onclick="dd()">
+       </div>
+    <div class="flex-item item3">
+        <img src="image/bbb.jpg" id="img2" onclick="ee()">
+    </div>
+    </div>
+</div>
+</body>
+</html>
